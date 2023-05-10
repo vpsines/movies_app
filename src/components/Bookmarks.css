@@ -1,0 +1,57 @@
+.movie-card{
+    width: 90%;
+    height: 20vh;
+    margin:auto;
+    border-radius: 1vw;
+    background-color: black;
+    position: relative;
+}
+
+.movie-card img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.movie-card .body-content{
+    position: absolute;
+    bottom: 1vh;
+    width: 98%;
+    left: 1vw;
+}
+
+.movie-card .body-content .actions{
+    display: flex;
+    width: 95%;
+    justify-content: space-between;
+    margin-top: 0.25vw;
+}
+
+.movie-card .body-content .actions button{
+    width: 30%;
+    height: 4vh;
+    border-radius: 1vw;
+    background: #801122;
+    border: none;
+    margin-right: 0.5vw;
+    opacity: 0.9;
+    color: white;
+}
+
+.movie-card .body-content .actions .add-button{
+    border-radius: 100% !important;
+    width: 2vw;
+height: 2vw;
+background: #503463;
+border: none;
+color: white;
+}
+
+.movie-card .body-content .rating{
+    color: yellow;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 10%;
+    margin-bottom: 5vh;
+}

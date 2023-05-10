@@ -1,0 +1,96 @@
+.loader{
+    padding: 25vh;}
+
+.movies-grid{
+    display: grid;
+    gap: 3vw 5vw;
+    grid-template-columns: 45% 45%;
+    background-color: #0d0c0f;
+}
+
+.movies-grid .trending-movie-card{
+    box-shadow: 0 1px 10px 0 white;
+    height: 30vh;
+    width: 100%;
+    margin: auto;
+    border-radius: 1vw;
+    background-color: black;
+    position: relative;
+}
+
+.movies-grid .trending-movie-card img{
+    width: 100%;
+    height: 100%;
+    border-radius: 1vw;
+    object-fit: cover;
+}
+
+.movies-grid .trending-movie-card .body-content{
+    position: absolute;
+    bottom: 3vh;
+    width: 98%;
+    left: 1vw;
+    color: white;
+    text-align: start;
+}
+
+.movies-grid .trending-movie-card .body-content h4{
+    margin: 0 !important;
+}
+
+.movies-grid .trending-movie-card .body-content h2{
+    margin: 0 !important;
+}
+
+.movies-grid .trending-movie-card .actions{
+    display: flex;
+    width: 85%;
+    justify-content: end;
+    margin-top: 0.25vw;
+    right: 3vw;
+    bottom: 3vh;
+    position: absolute;
+}
+
+.movies-grid .trending-movie-card .actions .watch-button{
+    width: 30%;
+    height: 4vh;
+    border-radius: 1vw;
+    background: #801122;
+    border: none;
+    margin-right: 0.5vw;
+    opacity: 0.9;
+    color: white;
+}
+
+.movies-grid .trending-movie-card .actions .add-button{
+    border-radius: 100% !important;
+        width: 2vw;
+    height: 2vw;
+    background: #503463;
+    border: none;
+    color: white;
+}
+
+.movies-grid .trending-movie-card .body-content .rating{
+    justify-content: start;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    margin-top: 1vw;
+}
+
+.movies-grid .trending-movie-card .body-content .rating span{
+    font-size: 18px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 40%;
+}
+
+.movies-grid .trending-movie-card .body-content .rating .imdb{
+    color: black;
+    padding: 0.15vw;
+    font-weight: bold;
+    background-color: yellow;
+}

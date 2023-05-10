@@ -1,0 +1,62 @@
+.side-bar{
+  height: 100vh;  
+  width: 30%;
+  background: #1a161f;
+}
+
+.search-bar{
+    display: flex;
+    align-items: center;
+    background: black;
+    width: 75%;
+    margin: auto;
+    border: white;
+    padding: 0 8px;
+    border-radius: 1vw;
+    color: white;
+}
+
+input{
+    height: 4vh;
+    border: none;
+    background: black;
+    outline: none;
+    color: white;
+}
+
+.genre-filter{
+    padding: 0 1vw;
+    text-align: left;
+    color: white;
+}
+.genre-filter h3{
+    font-weight: 300;   
+}
+
+.genre-filter .selected{
+    width: 7.9vw;
+    height: 2vw;
+    background: #eb1d24;
+    color: white;
+    margin: 0.5vw;
+    border: none;
+    border-radius: 1vw;
+    justify-content: space-between;
+    align-items: center;
+    display: inline-flex;
+    padding: 0 1vw;
+}
+
+.genre-filter .unselected{
+    width: 7.9vw;
+    height: 2vw;
+    background: #0d0c0f;
+    color: #434346;
+    margin: 0.5vw;
+    border: none;
+    border-radius: 1vw;
+    justify-content: space-between;
+    align-items: center;
+    display: inline-flex;
+    padding: 0 1vw;
+}

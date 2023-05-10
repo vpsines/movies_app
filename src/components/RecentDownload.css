@@ -1,0 +1,54 @@
+.movie-card{
+    width: 90%;
+    height: 20vh;
+    margin:auto;
+    border-radius: 1vw;
+    background-color: black;
+    position: relative;
+}
+
+.video-player{
+    position: absolute;
+	top: 0;
+	left: 0;
+	object-fit: fill;
+	width: 100%;
+	height: 100%;
+    border-radius: 1vw;
+}
+
+.movie-card img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain !important;
+}
+
+.movie-card .body-content{
+    position: absolute;
+    bottom: 1vh;
+    width: 98%;
+    left: 1vw;
+}
+
+.movie-card .body-content .player{
+    display: flex;
+    width: 90%;
+    align-items: center;
+}
+
+.movie-card .body-content h3{
+    margin: 0;
+    color: white;
+    text-align: left;
+}
+
+.movie-card .body-content h5{
+    color: white;
+    margin: 0;
+    text-align: left;
+}
+
+.movie-card span{
+    color: white;
+    font-size: 14px;
+}
